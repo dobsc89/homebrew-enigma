@@ -8,7 +8,6 @@ class PlayAT12 < Formula
 
   conflicts_with "sox", :because => "Both install a `play` executable"
   conflicts_with "play14", :because => "Both install a `play` executable"
-  conflicts_with "play22", :because => "Both install a `play` executable"
 
   def install
     rm_rf "python" # we don't need the bundled Python for windows
