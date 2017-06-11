@@ -1,13 +1,13 @@
-class PlayAT12 < Formula
+class PlayAT14 < Formula
   desc "Play’s goal is to ease Java web applications development."
   homepage "https://www.playframework.com"
-  url "https://downloads.typesafe.com/play/1.2.7.2/play-1.2.7.2.zip"
-  sha256 "bdf4422b235553c36161ba85512ad17a25b5f5974179b28caccccdc82e9dfc22"
+  url "https://downloads.typesafe.com/play/1.4.4/play-1.4.4.zip"
+  sha256 "1dd7ef51c8698e997d72187932124b853e7e2e4519d098890fadc4ef10316cab"
 
   bottle :unneeded
 
   conflicts_with "sox", :because => "Both install a `play` executable"
-  conflicts_with "play@14", :because => "Both install a `play` executable"
+  conflicts_with "play@12", :because => "Both install a `play` executable"
 
   def install
     rm_rf "python" # we don't need the bundled Python for windows
