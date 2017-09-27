@@ -1,4 +1,4 @@
-cask 'javaAT8' do
+cask 'java8' do
   version '1.8.0_144-b01,090f390dda5b47b9b721c7dfaa008135'
   sha256 '2450b35e10295ccf3fb1596bdea6f8f5670f7200ae3ac592eb6a54cc030cf94b'
 
