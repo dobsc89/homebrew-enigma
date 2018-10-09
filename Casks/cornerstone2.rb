@@ -7,7 +7,6 @@ cask 'cornerstone2' do
           :checkpoint => '6b45e1c9ab25d606dd6d80657848b20002fdd8abbb587610f9dd7840827f94fc'
   name 'Cornerstone'
   homepage 'https://www.zennaware.com/cornerstone/'
-  license :commercial
 
   app 'Cornerstone.app'
 end
