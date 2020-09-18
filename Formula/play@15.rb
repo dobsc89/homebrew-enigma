@@ -1,4 +1,4 @@
-class PlayAT14 < Formula
+class PlayAT15 < Formula
   desc "Play’s goal is to ease Java web applications development."
   homepage "https://www.playframework.com"
   url "https://downloads.typesafe.com/play/1.5.3/play-1.5.3.zip"
@@ -8,6 +8,7 @@ class PlayAT14 < Formula
 
   conflicts_with "sox", :because => "Both install a `play` executable"
   conflicts_with "play@12", :because => "Both install a `play` executable"
+  conflicts_with "play@14", :because => "Both install a `play` executable"
 
   def install
     rm_rf "python" # we don't need the bundled Python for windows
