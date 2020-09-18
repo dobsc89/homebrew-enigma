@@ -2,7 +2,7 @@ class PlayAT15 < Formula
   desc "Play’s goal is to ease Java web applications development."
   homepage "https://www.playframework.com"
   url "https://downloads.typesafe.com/play/1.5.3/play-1.5.3.zip"
-  sha256 "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  sha256 "b0cb5b37b1eccb648ee76fe54417b2c2e14dcf155ce6964d7c4452aa337fae8a"
 
   bottle :unneeded
 
